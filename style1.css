@@ -1,0 +1,102 @@
+body{
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(243, 241, 178);
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    color: white;
+    margin: 0px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.main{
+    background-color: rgb(237, 89, 14);
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    background-color: aquamarine;
+    color: blueviolet;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.product img{
+    width: 140px;
+    height: 140px;
+    border-radius: 5px;
+}
+
+.products{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+  
+}
+.product{
+    text-align: center;
+    background-color: rgb(242, 243, 241);
+   width: 200px;
+   padding: 20px;
+}
+.cart-container{
+    text-align: center;
+    background-color: rgb(237, 89, 14);
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
